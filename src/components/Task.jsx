@@ -7,6 +7,8 @@ function Task({ id, name, description, isDone, onComplete }) {
     onComplete(id);
   };
 
+  // console.log('render TASK');
+
   return (
     <div
       className={clsx('rounded-md border border-green-600 bg-green-200  p-2 hover:cursor-pointer', style)}
