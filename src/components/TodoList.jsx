@@ -3,6 +3,7 @@ import { initialTasks } from '../data';
 import Input from './Input';
 import Summary from './Summary';
 import Task from './Task';
+import Timer from './Timer';
 
 function TodoList() {
   const [tasks, setTasks] = useState(initialTasks);

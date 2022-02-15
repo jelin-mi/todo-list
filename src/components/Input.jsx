@@ -26,7 +26,7 @@ function Input({ onAdd }) {
     });
   };
 
-  console.log('render Input', form);
+  // console.log('render Input', form);
   return (
     <>
       <input
